@@ -1,0 +1,42 @@
+/* Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+
+/* Styling the table headers */
+table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Styling table rows */
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Adding zebra stripes to rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Styling rows in class 'zaza' specifically */
+.zaza {
+    background-color: #333;
+    color: white;
+}
+
+/* Optional: Add padding to the table */
+table {
+    margin-top: 20px;
+}
